@@ -1,6 +1,6 @@
-package com.ocado
+package com.paweln1986
 
-import com.ocado.Parser.ParseResult
+import com.paweln1986.Parser.ParseResult
 
 case class Parser[A](parse: () => String => ParseResult[A])
 
